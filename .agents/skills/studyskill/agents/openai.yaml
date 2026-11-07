@@ -1,0 +1,4 @@
+interface:
+  display_name: "StudySkill 交互讲学"
+  short_description: "学生自主选方向，沿问题与方法演进开展交互教学，以实操和双向复盘持续调整计划"
+  default_prompt: "使用 $studyskill，先和我明确想学的方向及目标，再制定整体路线和每轮计划，通过实践与反馈推进学习。"
