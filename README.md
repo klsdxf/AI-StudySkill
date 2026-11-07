@@ -1,187 +1,192 @@
 # StudySkill
 
-### 让学习，重新从一个属于你的问题开始。
+**English** | [简体中文](README.zh-CN.md)
 
-**学生决定方向 · 问题驱动讲学 · 实操检验理解 · 反馈改变教学**
+### Let learning begin with a question of your own.
 
-如果学习从你的好奇出发，如果每一次尝试都能改变下一堂课，如果老师也需要复盘自己的教学——学习会变成什么样？
+**Choose your direction · Learn through problems · Demonstrate understanding · Shape the next lesson**
 
-StudySkill 想把这样的学习方式变成一套可以持续执行的交互教学机制。
+What would learning look like if it began with your curiosity? If every attempt could change the next lesson? If the teacher had to reflect on their teaching, too?
 
-你提出想探索的方向，AI 与你共同规划；你亲自尝试、解释、修改，在解决问题的过程中理解知识。你的困惑、兴趣和体验，参与决定接下来怎么学。
+StudySkill turns that idea into a repeatable approach to interactive teaching.
 
-> **方向由你选择，理解由实践检验，教学因你的反馈而改变。**
+You choose what to explore. An AI tutor helps you plan a path. You try, explain, and revise as you work through concrete problems. Your questions, interests, and experience help determine what happens next.
+
+> **You choose the direction. Practice reveals understanding. Your feedback changes the teaching.**
 
 ---
 
-## 为什么要做 StudySkill？
+## Why StudySkill?
 
-我想尝试颠覆传统教育中一种熟悉的学习方式：学生沿着预设进度接收知识，却很少有机会决定问题、检验自己的理解，或者改变教学本身。
+I want to challenge a familiar pattern in traditional education: students follow a predetermined sequence of content, with little say in which questions matter, how understanding is demonstrated, or how the teaching itself should change.
 
-我希望学习者能够说：
+I want learners to be able to say:
 
-“我为什么要学这个？”
+“Why am I learning this?”
 
-“我想先解决自己的问题。”
+“I want to solve my own problem first.”
 
-“这一步我已经会了，可以跳过。”
+“I can already do this. Can we move on?”
 
-“刚才的讲法没有帮助我理解，我们换一种方式。”
+“That explanation didn't help me understand. Let's try another way.”
 
-而这些话，能够真正改变课程。
+And I want those words to actually change the course.
 
-**我想改变的是学习中的决定权：学生参与决定目标、节奏和路径；教师根据学生的真实表现与体验，持续修正教学。**
+**The ambition is to give students a meaningful say in their goals, pace, and path—and make teaching respond to what they can do and how they experience learning.**
 
-AI 让持续的一对一交互更容易发生。但只有把选择、实践、反馈和记录连接起来，这种交互才有机会成为深入的学习。
+AI makes sustained, individual interaction easier to offer. Connecting choice, practice, feedback, and a lasting record gives that interaction a structure for deeper learning.
 
-## 知识为什么值得这样学？
+## Learn why a method exists
 
-许多知识背后，都有一个曾经让人束手无策的问题。
+Behind many ideas lies a problem that people once struggled to solve.
 
-一种方法解决了它，又在新的条件下暴露局限。人们因此提出新的概念、工具与解释。沿着这些关键转折，我们才能理解：一个方法为什么出现、为什么有效，以及什么时候应该换一种方法。
+A method helps, then meets a new limitation. New concepts, tools, and explanations emerge. Following those turning points helps us understand why a method appeared, why it works, and when to choose something else.
 
-**StudySkill 以问题和方法的演进组织教学，让概念带着它要解决的问题登场。**
+**StudySkill organizes teaching around the evolution of problems and methods. Concepts arrive with a reason to learn them.**
 
-例如学习数据存储，可以从这样的情境进入：
+Learning about data storage, for example, might begin here:
 
 ```text
-我想保存一些记录
-        ↓
-先用文件，就能完成
-        ↓
-记录多了，查找和修改开始麻烦
-        ↓
-需要更合适的数据组织与查询方法
-        ↓
-数据之间产生关联，又该怎样处理？
+I want to save some records.
+            ↓
+A file is enough to get started.
+            ↓
+As records grow, finding and changing them gets awkward.
+            ↓
+I need better ways to organize and query the data.
+            ↓
+Now the records are related. How should I handle that?
 ```
 
-这是教学情境的简化示意。真实学科的发展存在分支、并行探索和反复，不应被讲成唯一的一条直线。
+This is a simplified teaching scenario. Real disciplines develop through branching ideas, parallel discoveries, and revisions; they rarely follow a single straight line.
 
-我们也不需要重走所有旧路。能够帮助理解关键问题的方法，值得体验；只有背景价值的，简要介绍；与目标关系不大的，可以跳过。方法是否适用，要看今天的具体场景。
+There is no need to retrace every old path. Try an earlier method when it reveals an important problem. Summarize it when it offers useful context. Skip it when it adds little to the learner's goal. Judge its usefulness against the situation at hand.
 
-## 一门会随你调整的课
+## A course that changes with you
 
-### 01 · 从你想学的东西开始
+### 01 · Start with what you want to learn
 
-你可以带着一个领域、一个疑问、一份教材，或一个想完成的作品进入：
+Bring a subject, a question, a book, or something you want to make:
 
-> 我想学数据库，但想先弄懂为什么需要它。
+> I want to learn about databases, starting with why we need them.
 >
-> 我想知道计算机怎么处理语言。
+> I want to understand how computers process language.
 >
-> 我想读懂这本数学书。
+> I want to work through this mathematics book.
 >
-> 我想给自己的应用增加历史记录。
+> I want to add a history feature to my app.
 
-教师帮助你澄清目标和必要基础，并和你商量范围。课程不预设就业终点，也不要求每一种学习都变成软件项目。
+The tutor helps clarify your goal, identify necessary foundations, and agree on a manageable scope. Learning can serve curiosity, understanding, or a practical need. A software project or career outcome is never a required destination.
 
-### 02 · 先看见路线，再走进每一轮
+### 02 · See the path before taking the next step
 
-计划分为两层：
+Planning happens at two levels:
 
-| 层级 | 你会提前知道什么 |
+| Level | What you see in advance |
 |---|---|
-| 整体路线 | 核心问题、各轮关系、阶段成果、大致投入和结束条件 |
-| 每轮计划 | 每个小节为什么学、你要做什么、怎样判断已经学会 |
+| Overall roadmap | Core questions, connections between learning rounds, milestones, rough effort, and completion criteria |
+| Plan for each round | Why each section matters, what you will do, and how understanding will be assessed |
 
-计划经你确认后执行。后续根据真实进展细化；如果要改变目标或大幅调整路线，会把原因与影响交给你决定。
+You review and approve the plans before teaching begins. Later rounds become more specific as you progress. A change of goal or a substantial change of route comes with an explanation and a decision for you to make.
 
-### 03 · 在尝试中，让讲解发生
+### 03 · Let your attempts guide the explanation
 
-一轮学习可以从一个预测、一次设计或一个小实验开始。你的结果暴露了哪里需要解释，教师就在这里引入概念、提供提示或示范，再让你继续尝试。
+A round might begin with a prediction, a design, or a small experiment. Your result reveals what needs explaining. The tutor introduces a concept, offers a hint or demonstration, and gives you room to try again.
 
-缺少基础时，直接讲清必要知识；已经掌握时，向前推进。每个任务尽量形成有意义的小成果，避免陷入漫长的猜答案、填空和单行修改。
+When a foundation is missing, explain it clearly. When understanding is already demonstrated, move forward. Each task should produce something meaningful: a small working feature, a complete argument, a piece of writing, or a reasoned choice. Avoid drawn-out guessing games and endless edits to individual lines.
 
-### 04 · 用你做出的东西检验理解
+### 04 · Show what you understand
 
-编程可以实现一个功能，数学可以推导并解决变式问题，写作可以完成一篇文本并解释修改取舍。
+In programming, implement a feature. In mathematics, develop an argument and apply it to a variation. In writing, produce a text and explain your revisions.
 
-验收关心三个问题：
+Assessment asks:
 
-- 你能完成吗？
-- 你能解释关键选择吗？
-- 条件变了，你能调整方法吗？
+- Can you complete the task?
+- Can you explain the important choices?
+- Can you adapt your method when the conditions change?
 
-独立完成、有提示完成、跟随示范与 AI 代做分别记录。已经证明会的内容跳过，尚未掌握的只补具体缺口。
+Independent work, prompted work, following a demonstration, and work done by the AI are recorded separately. Skip what you have already demonstrated. Address the specific gaps that remain.
 
-### 05 · 你也来评价这堂课
+### 05 · Evaluate the teaching, too
 
-老师需要复盘，学生的体验也需要进入复盘。
+Reflection includes your experience as well as the tutor's observations.
 
-哪里终于理解了？哪里仍然模糊？节奏太快还是任务太碎？哪些环节重复，哪些问题让你更想探索？
+What finally made sense? What remains unclear? Was the pace too fast, or were the tasks too fragmented? What felt repetitive? What made you want to explore further?
 
-这些反馈会转化为下一轮的具体调整：
+That feedback should produce concrete changes:
 
-| 你的反馈 | 下一轮可以怎样改变 |
+| Your feedback | How the next round can change |
 |---|---|
-| “任务太碎，不知道最后在做什么。” | 先展示完整目标，把零散修改合成一个可用的小功能 |
-| “例子跑通了，但我说不出为什么。” | 增加解释、预测和变式练习，检查理解缺口 |
-| “我更想理解原理，暂时不想做完整作品。” | 共同调整路线，用推导、小实验与讨论组织学习 |
-| “这个我已经会了。” | 核对已有表现，跳过重复训练 |
+| “The tasks are too fragmented. I can't see what we're building.” | Show the complete goal first, then combine small edits into a useful feature. |
+| “The example works, but I can't explain why.” | Add explanation, prediction, and a variation that exposes the gap in understanding. |
+| “I want to understand the principles before making a full project.” | Agree on a revised route built around reasoning, small experiments, and discussion. |
+| “I already know this.” | Check the available evidence and skip repeated practice. |
 
-**下一轮计划需要说明：你反馈了什么，教学因此改变了什么。**
+**The next plan must explain what you said and what changed because of it.**
 
-### 06 · 留下过程，下次接着走
+### 06 · Keep the process, then pick up where you left off
 
-有意义的学习步骤会持续记录：当时的问题、你的尝试、教师的帮助、实际结果、验收依据，以及反馈带来的调整。
+Meaningful learning steps are recorded: the problem, your attempt, the tutor's help, the observed result, the basis for assessment, and the changes prompted by feedback.
 
-恢复学习时，可以找到当前断点和未完成项；回看时，可以追溯自己如何理解一个问题，也可以检查教学是否兑现了调整。
+When you return, the record identifies where you stopped and what remains unfinished. Looking back, you can trace how your understanding developed—and whether the teaching followed through on its promises.
 
-## 想象一次这样的学习
+## What an exchange could look like
 
-以下是交互方式示意，并非真实教学效果展示。
+This example illustrates the intended interaction. It is not evidence of learning outcomes.
 
-> **学生：** 我想学数据库，先给自己的小应用加上历史记录。
+> **Student:** I want to learn about databases by adding history to my small app.
 >
-> **教师：** 我们先明确要保存什么、以后怎样查回，再一起确定路线。本轮会完成一段能保存和读取历史的流程，每个小节的任务与验收都会先展示。
+> **Tutor:** Let's clarify what you want to save and how you'll retrieve it, then agree on a roadmap. This round will produce a working way to save and read history. You'll see the tasks and assessment criteria before we start.
 >
-> **学生：** 我把记录保存下来了，但按条件查找很麻烦。
+> **Student:** I saved the records, but searching by a condition is awkward.
 >
-> **教师：** 这个困难正好是下一步要解决的问题。先看你现在怎样查，再讨论怎样组织数据、表达查询。
+> **Tutor:** That's the next problem to investigate. Let's look at how you're searching now, then consider how to organize the data and express the query.
 >
-> **学生：** 这轮每次只改一行，我不知道整体在做什么。
+> **Student:** We keep changing one line at a time. I've lost sight of the whole thing.
 >
-> **教师：** 接下来先展示完整流程，把相关修改合成一个可用的小功能。这个反馈会写进复盘，也会体现在下一轮计划里。
+> **Tutor:** Let's show the complete flow and group the related changes into one useful feature. I'll record that feedback in the reflection and carry it into the next plan.
 
-## 开始使用
+## Get started
 
-本仓库提供一套教学 skill，需要由支持读取技能文件的 AI 助手执行。它定义教学流程与记录方式，目前不包含独立的教学应用界面。
+This repository provides a teaching skill for an AI assistant that can read skill files. It defines the teaching workflow and recordkeeping conventions; it does not currently include a standalone teaching app.
 
-1. 将本仓库作为独立的学习工作区。
-2. 让助手加载 [StudySkill 教学规范](.agents/skills/studyskill/SKILL.md)；支持 Agent Skills 发现机制的环境可以识别 `.agents/skills/studyskill/`。
-3. 告诉它你想学什么。支持显式技能调用时，可以这样开始：
+1. Use this repository as a separate learning workspace.
+2. Have your assistant load the [StudySkill instructions](.agents/skills/studyskill/SKILL.md). Environments with compatible Agent Skills discovery can find `.agents/skills/studyskill/`.
+3. Tell the assistant what you want to learn. Where explicit skill invocation is supported, start with:
 
 ```text
 $studyskill
 
-我想学习________。
-我的基础是________，希望最后能够________。
-先和我明确目标，再给出整体路线和第一轮计划。
+I want to learn ________.
+My current background is ________, and I hope to be able to ________.
+Help me clarify my goal, then propose an overall roadmap
+and a plan for the first learning round.
 ```
 
-暂时说不清目标也可以，从“我对什么好奇”开始。实际开始课程后，学习记录保存在工作区的 `learning/` 下，按主题分别管理。
+You do not need a fully formed goal. Start with what makes you curious. Once learning begins, records are saved under `learning/` in the workspace, separately for each topic.
 
-## 仓库里有什么？
+## Inside the repository
 
-| 文件 | 作用 |
+| File | Purpose |
 |---|---|
-| [SKILL.md](.agents/skills/studyskill/SKILL.md) | 教学入口与核心流程 |
-| [planning-and-teaching.md](.agents/skills/studyskill/references/planning-and-teaching.md) | 两层计划、问题演进选材和交互方式 |
-| [reflection.md](.agents/skills/studyskill/references/reflection.md) | 学生体验、教师复盘和下一轮调整 |
-| [records.md](.agents/skills/studyskill/references/records.md) | 进度、事件、证据和恢复约定 |
-| [AGENTS.md](AGENTS.md) | 本工作区的使用边界 |
+| [SKILL.md](.agents/skills/studyskill/SKILL.md) | Entry point and core teaching workflow |
+| [planning-and-teaching.md](.agents/skills/studyskill/references/planning-and-teaching.md) | Planning at both levels, selecting problems and methods, and guiding interaction |
+| [reflection.md](.agents/skills/studyskill/references/reflection.md) | Student experience, tutor reflection, and changes to future teaching |
+| [records.md](.agents/skills/studyskill/references/records.md) | Progress, events, evidence, and resuming learning |
+| [AGENTS.md](AGENTS.md) | Workspace instructions and boundaries |
 
-StudySkill 独立维护，使用自己的课程记录，与原 ai-job-search 的 `/upskill` 及既有学习记录分开。
+The teaching specifications are currently written in Chinese. This README provides an English introduction to the project.
 
-## 这是一项正在接受实践检验的尝试
+StudySkill is maintained independently, with its own course records. It is separate from the original ai-job-search `/upskill` workflow and its existing learning history.
 
-当前版本已经定义教学、验收、复盘和记录规范；实际教学仍取决于执行它的助手、所用资料和双方的投入。这些规范尚不构成经过独立验证的学习成效。
+## An approach to keep testing in practice
 
-欢迎带着真实的学习经历来改进它：哪个问题让你理解了？哪段互动让你失去耐心？哪条反馈没有真正改变教学？
+The current version defines teaching, assessment, reflection, and recordkeeping rules. The experience still depends on the assistant executing them, the quality of the materials, and the participation of both learner and tutor. These specifications do not establish independently validated learning outcomes.
 
-这些具体经历，将帮助 StudySkill 继续修正自己的方法。
+Real learning experiences can help improve the approach. Which question made something click? Which interaction became frustrating? Which piece of feedback failed to change the teaching?
+
+Those experiences give StudySkill reasons to revise its own methods.
 
 ---
 
-**从你真正想弄懂的那个问题开始。**
+**Start with the question you truly want to understand.**
