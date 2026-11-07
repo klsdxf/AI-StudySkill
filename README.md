@@ -1,192 +1,191 @@
 # StudySkill
 
-**English** | [简体中文](README.zh-CN.md)
-
 ### Let learning begin with a question of your own.
 
-**Choose your direction · Learn through problems · Demonstrate understanding · Shape the next lesson**
+**A reusable Agent Skill for interactive teaching, guided by your goals, practical work, and feedback.**
 
-What would learning look like if it began with your curiosity? If every attempt could change the next lesson? If the teacher had to reflect on their teaching, too?
+**English** | [简体中文](README.zh-CN.md)
 
-StudySkill turns that idea into a repeatable approach to interactive teaching.
-
-You choose what to explore. An AI tutor helps you plan a path. You try, explain, and revise as you work through concrete problems. Your questions, interests, and experience help determine what happens next.
+You choose what to learn. An AI tutor helps you plan, work through meaningful problems, and demonstrate understanding. Your experience shapes the next round of teaching, with a record you can return to.
 
 > **You choose the direction. Practice reveals understanding. Your feedback changes the teaching.**
 
----
+[Quick start](#quick-start) · [How it works](#how-it-works) · [The philosophy](#the-philosophy) · [Examples](#examples) · [Inside the repository](#inside-the-repository)
 
-## Why StudySkill?
+## Quick start
 
-I want to challenge a familiar pattern in traditional education: students follow a predetermined sequence of content, with little say in which questions matter, how understanding is demonstrated, or how the teaching itself should change.
+StudySkill is a set of teaching instructions for an AI assistant that can read skill files. Use this repository as a separate learning workspace.
 
-I want learners to be able to say:
+### 1. Get the workspace
 
-“Why am I learning this?”
+Download the repository, or clone it:
 
-“I want to solve my own problem first.”
-
-“I can already do this. Can we move on?”
-
-“That explanation didn't help me understand. Let's try another way.”
-
-And I want those words to actually change the course.
-
-**The ambition is to give students a meaningful say in their goals, pace, and path—and make teaching respond to what they can do and how they experience learning.**
-
-AI makes sustained, individual interaction easier to offer. Connecting choice, practice, feedback, and a lasting record gives that interaction a structure for deeper learning.
-
-## Learn why a method exists
-
-Behind many ideas lies a problem that people once struggled to solve.
-
-A method helps, then meets a new limitation. New concepts, tools, and explanations emerge. Following those turning points helps us understand why a method appeared, why it works, and when to choose something else.
-
-**StudySkill organizes teaching around the evolution of problems and methods. Concepts arrive with a reason to learn them.**
-
-Learning about data storage, for example, might begin here:
-
-```text
-I want to save some records.
-            ↓
-A file is enough to get started.
-            ↓
-As records grow, finding and changing them gets awkward.
-            ↓
-I need better ways to organize and query the data.
-            ↓
-Now the records are related. How should I handle that?
+```bash
+git clone https://github.com/klsdxf/Studyskill.git
+cd Studyskill
 ```
 
-This is a simplified teaching scenario. Real disciplines develop through branching ideas, parallel discoveries, and revisions; they rarely follow a single straight line.
+### 2. Load the skill
 
-There is no need to retrace every old path. Try an earlier method when it reveals an important problem. Summarize it when it offers useful context. Skip it when it adds little to the learner's goal. Judge its usefulness against the situation at hand.
-
-## A course that changes with you
-
-### 01 · Start with what you want to learn
-
-Bring a subject, a question, a book, or something you want to make:
-
-> I want to learn about databases, starting with why we need them.
->
-> I want to understand how computers process language.
->
-> I want to work through this mathematics book.
->
-> I want to add a history feature to my app.
-
-The tutor helps clarify your goal, identify necessary foundations, and agree on a manageable scope. Learning can serve curiosity, understanding, or a practical need. A software project or career outcome is never a required destination.
-
-### 02 · See the path before taking the next step
-
-Planning happens at two levels:
-
-| Level | What you see in advance |
-|---|---|
-| Overall roadmap | Core questions, connections between learning rounds, milestones, rough effort, and completion criteria |
-| Plan for each round | Why each section matters, what you will do, and how understanding will be assessed |
-
-You review and approve the plans before teaching begins. Later rounds become more specific as you progress. A change of goal or a substantial change of route comes with an explanation and a decision for you to make.
-
-### 03 · Let your attempts guide the explanation
-
-A round might begin with a prediction, a design, or a small experiment. Your result reveals what needs explaining. The tutor introduces a concept, offers a hint or demonstration, and gives you room to try again.
-
-When a foundation is missing, explain it clearly. When understanding is already demonstrated, move forward. Each task should produce something meaningful: a small working feature, a complete argument, a piece of writing, or a reasoned choice. Avoid drawn-out guessing games and endless edits to individual lines.
-
-### 04 · Show what you understand
-
-In programming, implement a feature. In mathematics, develop an argument and apply it to a variation. In writing, produce a text and explain your revisions.
-
-Assessment asks:
-
-- Can you complete the task?
-- Can you explain the important choices?
-- Can you adapt your method when the conditions change?
-
-Independent work, prompted work, following a demonstration, and work done by the AI are recorded separately. Skip what you have already demonstrated. Address the specific gaps that remain.
-
-### 05 · Evaluate the teaching, too
-
-Reflection includes your experience as well as the tutor's observations.
-
-What finally made sense? What remains unclear? Was the pace too fast, or were the tasks too fragmented? What felt repetitive? What made you want to explore further?
-
-That feedback should produce concrete changes:
-
-| Your feedback | How the next round can change |
-|---|---|
-| “The tasks are too fragmented. I can't see what we're building.” | Show the complete goal first, then combine small edits into a useful feature. |
-| “The example works, but I can't explain why.” | Add explanation, prediction, and a variation that exposes the gap in understanding. |
-| “I want to understand the principles before making a full project.” | Agree on a revised route built around reasoning, small experiments, and discussion. |
-| “I already know this.” | Check the available evidence and skip repeated practice. |
-
-**The next plan must explain what you said and what changed because of it.**
-
-### 06 · Keep the process, then pick up where you left off
-
-Meaningful learning steps are recorded: the problem, your attempt, the tutor's help, the observed result, the basis for assessment, and the changes prompted by feedback.
-
-When you return, the record identifies where you stopped and what remains unfinished. Looking back, you can trace how your understanding developed—and whether the teaching followed through on its promises.
-
-## What an exchange could look like
-
-This example illustrates the intended interaction. It is not evidence of learning outcomes.
-
-> **Student:** I want to learn about databases by adding history to my small app.
->
-> **Tutor:** Let's clarify what you want to save and how you'll retrieve it, then agree on a roadmap. This round will produce a working way to save and read history. You'll see the tasks and assessment criteria before we start.
->
-> **Student:** I saved the records, but searching by a condition is awkward.
->
-> **Tutor:** That's the next problem to investigate. Let's look at how you're searching now, then consider how to organize the data and express the query.
->
-> **Student:** We keep changing one line at a time. I've lost sight of the whole thing.
->
-> **Tutor:** Let's show the complete flow and group the related changes into one useful feature. I'll record that feedback in the reflection and carry it into the next plan.
-
-## Get started
-
-This repository provides a teaching skill for an AI assistant that can read skill files. It defines the teaching workflow and recordkeeping conventions; it does not currently include a standalone teaching app.
-
-1. Use this repository as a separate learning workspace.
-2. Have your assistant load the [StudySkill instructions](.agents/skills/studyskill/SKILL.md). Environments with compatible Agent Skills discovery can find `.agents/skills/studyskill/`.
-3. Tell the assistant what you want to learn. Where explicit skill invocation is supported, start with:
+Open the workspace in your assistant. Environments with compatible Agent Skills discovery can find `.agents/skills/studyskill/`. Where explicit invocation is supported, start with:
 
 ```text
 $studyskill
 
-I want to learn ________.
-My current background is ________, and I hope to be able to ________.
-Help me clarify my goal, then propose an overall roadmap
-and a plan for the first learning round.
+I want to understand databases by adding history to my app.
+I know basic programming, but I'm new to SQL.
+Help me clarify the goal, then propose an overall roadmap
+and a complete plan for the first learning round.
 ```
 
-You do not need a fully formed goal. Start with what makes you curious. Once learning begins, records are saved under `learning/` in the workspace, separately for each topic.
+If your assistant does not discover the skill, ask it to read [`.agents/skills/studyskill/SKILL.md`](.agents/skills/studyskill/SKILL.md) and follow it for your learning request.
+
+The teaching specifications are currently written in Chinese. This English README introduces the workflow; loading and invocation depend on your assistant's capabilities.
+
+### 3. Agree on the plan, then begin
+
+Review the overall roadmap and the first round's plan. The tutor starts teaching after you approve the relevant plan. You do not need a finished project idea: a subject, a book, or a question is enough to begin the conversation.
+
+Learning records are created under `learning/` only when a course actually starts.
+
+## What changes in your learning
+
+| What matters | What StudySkill asks the tutor to do |
+|---|---|
+| **Your direction** | Clarify your goal and scope with you. Let curiosity, understanding, or a practical need set the destination. |
+| **A visible plan** | Show the overall roadmap, then a complete plan for each round before teaching it. |
+| **Meaningful interaction** | Use your attempts to decide what to explain. Give direct explanations when foundations are missing. |
+| **Evidence of understanding** | Check what you can do, explain, and adapt. Record independent work and assisted work separately. |
+| **A voice in the teaching** | Include your experience in reflection and show how it changes the next plan. |
+| **Continuity** | Record meaningful steps, evidence, feedback, and the point where you stopped. |
+
+## How it works
+
+```mermaid
+flowchart TD
+    A[Your question and goal] --> B[Agree on an overall roadmap]
+    B --> C[Review and approve the round plan]
+    C --> D[Try, discuss, and improve]
+    D --> E[Assess practical evidence]
+    E --> F[Reflect together]
+    F --> G[Revise using student feedback]
+    G --> C
+```
+
+A learning round can contain several sections. Its plan explains the problem, purpose, student task, and assessment evidence for each section. If a gap remains, address that specific gap; demonstrated understanding does not need repeated practice.
+
+During teaching, the tutor can move between questions, hints, explanation, and demonstration. Each task should produce something meaningful: a working feature, an argument, an experiment, a piece of writing, or a reasoned decision. The amount of help is recorded.
+
+At the end of a round, both sides reflect. Feedback also matters during the round: pacing, examples, and task size can change immediately. Substantial changes to goals, route, or required assessment come back to you for approval.
+
+## The philosophy
+
+### Give learners a say in their education
+
+I want to challenge a familiar pattern in traditional education: students follow a predetermined sequence, with little influence over the questions, pace, or teaching itself.
+
+Learners should be able to say, “Why am I learning this?”, “I already know this,” or “That explanation didn't help”—and have those words change the course.
+
+**StudySkill puts that ambition into the teaching process: students help decide the goal, practice reveals what they understand, and feedback changes what comes next.** There is no required career destination, fixed number of rounds, or obligation to turn every subject into a software project.
+
+### Follow the problems that gave methods a purpose
+
+Many ideas make more sense when we see the problems they helped solve. A method works, meets a limitation, and prompts a new approach. Teaching follows those turning points so that concepts arrive with a reason to learn them.
+
+For data storage, a teaching scenario might follow:
+
+```text
+Save records in a file
+  → finding and updating records becomes awkward
+  → explore better organization and queries
+  → handle relationships between records
+```
+
+This is a simplified teaching scenario. Real history branches, overlaps, and revises itself; the tutor must distinguish verified history from instructional simplification.
+
+Try an earlier method when it exposes an important problem. Summarize it when it provides context. Skip it when it adds little to the goal. Age alone does not determine whether a method is still useful.
+
+### Assess the learner and improve the teaching
+
+Assessment asks whether you can complete a task, explain important choices, and adapt to a changed condition. Programming can involve a feature; mathematics, a derivation and a variation; writing, a text and its revisions.
+
+Independent work, prompted work, following a demonstration, and AI-completed work are recorded separately. Reading a chapter or watching the tutor finish a task does not establish practical competence.
+
+Reflection then examines the teaching as well:
+
+| Student feedback | A concrete response |
+|---|---|
+| “The tasks are too fragmented.” | Show the complete goal and group related steps into a useful result. |
+| “The example works, but I can't explain why.” | Use explanation, prediction, and a variation to locate the gap. |
+| “I want to focus on principles first.” | Propose a revised route built around reasoning and small experiments, for the student to approve. |
+
+**The next plan must explain what you said and what changed because of it.**
+
+## Examples
+
+Adapt these starting points to your interests:
+
+| Starting point | A request you could bring |
+|---|---|
+| A subject | “I want to understand probability. Start with the problems it helps us solve.” |
+| A question | “How do computers represent language, and why have those methods changed?” |
+| A book | “Help me work through this mathematics book. Use my attempts to decide where I need help.” |
+| A practical need | “I want to add history to my app and understand the storage choices.” |
+
+You can also steer an active course:
+
+```text
+The tasks feel too fragmented. Before we continue, show me how they
+fit together and propose a more coherent task.
+```
+
+```text
+Let's review this round. Include what I demonstrated, where I needed
+help, my experience, and what should change in the next plan.
+```
+
+These are example requests, not reports of teaching outcomes.
+
+## How to tell it is working
+
+Look for observable behavior:
+
+- You see why a task matters before attempting it.
+- The tutor responds to your actual work and avoids repeating demonstrated skills.
+- Assessment identifies the evidence and how much help you received.
+- Your feedback produces a visible change in teaching or the next plan.
+- Returning to a course restores its goal, current question, and unfinished work.
+
+These are checks on whether the workflow is being followed. Learning outcomes still need evaluation through real use.
 
 ## Inside the repository
 
 | File | Purpose |
 |---|---|
-| [SKILL.md](.agents/skills/studyskill/SKILL.md) | Entry point and core teaching workflow |
-| [planning-and-teaching.md](.agents/skills/studyskill/references/planning-and-teaching.md) | Planning at both levels, selecting problems and methods, and guiding interaction |
-| [reflection.md](.agents/skills/studyskill/references/reflection.md) | Student experience, tutor reflection, and changes to future teaching |
-| [records.md](.agents/skills/studyskill/references/records.md) | Progress, events, evidence, and resuming learning |
+| [SKILL.md](.agents/skills/studyskill/SKILL.md) | Skill entry point and core workflow |
+| [planning-and-teaching.md](.agents/skills/studyskill/references/planning-and-teaching.md) | Roadmaps, round plans, and teaching through problems and methods |
+| [reflection.md](.agents/skills/studyskill/references/reflection.md) | Student experience, tutor reflection, and follow-through |
+| [records.md](.agents/skills/studyskill/references/records.md) | Progress, events, evidence, and resuming a course |
 | [AGENTS.md](AGENTS.md) | Workspace instructions and boundaries |
 
-The teaching specifications are currently written in Chinese. This README provides an English introduction to the project.
+Once a course begins, its separate records can include:
 
-StudySkill is maintained independently, with its own course records. It is separate from the original ai-job-search `/upskill` workflow and its existing learning history.
+```text
+learning/<topic-id>/
+├── state.json        # Current progress and resume point
+├── events.jsonl      # Learning steps, evidence, and feedback
+├── plans/            # Overall and round plans, with versions
+├── reviews/          # Reflections from both sides
+├── practice/         # Student work and labeled demonstrations
+└── reports/          # Derived views, when needed
+```
 
-## An approach to keep testing in practice
+Directories are created as needed. Teaching rules stay in the skill; personal progress stays in the course workspace. StudySkill has its own records and remains separate from the original ai-job-search `/upskill` workflow.
 
-The current version defines teaching, assessment, reflection, and recordkeeping rules. The experience still depends on the assistant executing them, the quality of the materials, and the participation of both learner and tutor. These specifications do not establish independently validated learning outcomes.
+## Status and contributions
 
-Real learning experiences can help improve the approach. Which question made something click? Which interaction became frustrating? Which piece of feedback failed to change the teaching?
+The current release consists of teaching specifications. It does not include a standalone teaching app or independently validated learning outcomes. Actual teaching depends on the assistant, the materials, and the participation of learner and tutor.
 
-Those experiences give StudySkill reasons to revise its own methods.
-
----
+Help improve it through [concrete learning experiences](https://github.com/klsdxf/Studyskill/issues): what you wanted to learn, what happened, what helped or caused friction, and how the teaching should change. Remove personal information before sharing examples.
 
 **Start with the question you truly want to understand.**
