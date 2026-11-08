@@ -21,8 +21,8 @@ StudySkill 是供能够读取技能文件的 AI 助手执行的教学规范。�
 下载仓库，或克隆到本地：
 
 ```bash
-git clone https://github.com/klsdxf/Studyskill.git
-cd Studyskill
+git clone https://github.com/klsdxf/AI-StudySkill.git
+cd AI-StudySkill
 ```
 
 ### 2. 加载 skill

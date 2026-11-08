@@ -21,8 +21,8 @@ StudySkill is a set of teaching instructions for an AI assistant that can read s
 Download the repository, or clone it:
 
 ```bash
-git clone https://github.com/klsdxf/Studyskill.git
-cd Studyskill
+git clone https://github.com/klsdxf/AI-StudySkill.git
+cd AI-StudySkill
 ```
 
 ### 2. Load the skill
