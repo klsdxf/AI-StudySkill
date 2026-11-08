@@ -40,8 +40,6 @@ and a complete plan for the first learning round.
 
 If your assistant does not discover the skill, ask it to read [`.agents/skills/studyskill/SKILL.md`](.agents/skills/studyskill/SKILL.md) and follow it for your learning request.
 
-The teaching specifications are currently written in Chinese. This English README introduces the workflow; loading and invocation depend on your assistant's capabilities.
-
 ### 3. Agree on the plan, then begin
 
 Review the overall roadmap and the first round's plan. The tutor starts teaching after you approve the relevant plan. You do not need a finished project idea: a subject, a book, or a question is enough to begin the conversation.
@@ -180,7 +178,7 @@ learning/<topic-id>/
 └── reports/          # Derived views, when needed
 ```
 
-Directories are created as needed. Teaching rules stay in the skill; personal progress stays in the course workspace. StudySkill has its own records and remains separate from the original ai-job-search `/upskill` workflow.
+Directories are created as needed. Teaching rules stay in the skill; personal progress stays in the course workspace. 
 
 ## Status and contributions
 
